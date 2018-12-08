@@ -9,14 +9,15 @@ the first, the initial population is made up of degenerate rectangles (see the e
 mutatons are most-likely small. By working by locality, I mean that the fitness function need only
 be evaluated locally (at the points occupied by the small rectangles). 
 
-The inspiration for this program was the work [here](http://rogeralsing.com/2008/12/07/genetic-programming-evolution-of-
-mona-lisa/), in which genetic programming is used to approximate an image by using polygons.  
+The inspiration for this program was the work [here](http://rogeralsing.com/2008/12/07/genetic-programming-evolution-of-mona-lisa/), in which genetic programming is used to approximate an image by using polygons.  
 
 ## Example
 
-I consider a photograph of mine:
+I consider a photograph of mine
 
 ![Original image](Example/examples1.png)
+
+and I will run "./HCT examples1.png".
 
 
 On the first generation we have as background the average colour of the image, and the triangles
@@ -31,5 +32,4 @@ Result afater 100000 mutations (with 5000 triangles):
 
 
 
-## Disclamer: This is a work from 2011. Not my most complete 2011 version, but at least the one I could still 
-find on my pc. Probably going to be updated soon.
+## Disclamer: This is a work from 2011. Not my most complete 2011 version, but at least the one I could still find on my pc. Probably going to be updated soon.
