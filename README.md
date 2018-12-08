@@ -9,9 +9,9 @@ The inspiration for this program was the work by
 Base generation of triangles:
 
 
-![First generation](Example/out 0.png)
+![First generation](Example/out\ 0.png)
 
-![After 100000 mutations](Example/out 100000.png)
+![After 100000 mutations](Example/out\ 100000.png)
 
 
 
