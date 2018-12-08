@@ -4,14 +4,14 @@ An evolutionary Hill Climbing program that approximates an image through a combi
 The inspiration for this program was the work by 
 
 
-[Original image](Examples/examples1.png)
+[Original image](Example/examples1.png)
 
 Base generation of triangles:
 
 
-[First generation](Examples/out0.png)
+[First generation](Example/out0.png)
 
-[After 100000 mutations](Examples/out100000.png)
+[After 100000 mutations](Example/out100000.png)
 
 
 
