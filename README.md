@@ -15,7 +15,7 @@ The inspiration for this program was the work [here](http://rogeralsing.com/2008
 
 I consider a photograph of mine
 
-![Original image](Example/examples1.png)
+![Original image](Example/examples1.png?style=centerme)
 
 and I will run "./HCT examples1.png".
 
@@ -23,13 +23,14 @@ and I will run "./HCT examples1.png".
 On the first generation we have as background the average colour of the image, and the triangles
 are all degenerated to a point:
 
-![First generation](Example/out0.png)
+![First generation](Example/out0.png?style=centerme)
 
 Result afater 100000 mutations (with 5000 triangles):
 
-![After 100000 mutations](Example/out100000.png)
+![After 100000 mutations](Example/out100000.png?style=centerme)
 
 
 
 
-## Disclamer: This is a work from 2011. Not my most complete 2011 version, but at least the one I could still find on my pc. Probably going to be updated soon.
+## Disclamer
+This is a work from 2011. Not my most complete 2011 version, but at least the one I could still find on my pc. Probably going to be updated soon.
