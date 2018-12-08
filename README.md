@@ -1,7 +1,7 @@
 # Triangled-Images
 An evolutionary Hill Climbing program that approximates an image through a combination of triangles.
 
-The program approximates a given image by using a fixed number of triangles (fixed before compilation)
+The program approximates a given image (in png) by using a fixed number of triangles (fixed before compilation)
 and successively mutating either their colour or the position of their vertices, and keeping the mutation
 if this improves the ''fitness''. The program works fast
 even for large images. The secret to this lies in having small triangles and working locally. To ensure
