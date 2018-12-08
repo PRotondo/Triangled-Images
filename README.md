@@ -1,5 +1,5 @@
 # Triangled-Images
-An evolutionary Hill Climbing program that approximates an image through a combination of rectangles.
+An evolutionary Hill Climbing program that approximates an image through a combination of triangles.
 
 The program approximates a given image by using a fixed number of triangles (fixed before compilation)
 and successively mutating either their colour or the position of their vertices, and keeping the mutation
