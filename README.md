@@ -5,9 +5,9 @@ The program approximates a given image (in png) by using a fixed number of trian
 and successively mutating either their colour or the position of their vertices, and keeping the mutation
 if this improves the ''fitness''. The program works fast
 even for large images. The secret to this lies in having small triangles and working locally. To ensure
-the first, the initial population is made up of degenerate rectangles (see the example below) and the
+the first, the initial population is made up of degenerate triangles (see the example below) and the
 mutatons are most-likely small. By working by locality, I mean that the fitness function need only
-be evaluated locally (the points of the triangle). 
+be re-evaluated locally (the points of the modified triangle). 
 
 The inspiration for this program was the work [here](http://rogeralsing.com/2008/12/07/genetic-programming-evolution-of-mona-lisa/), in which genetic programming is used to approximate an image by using polygons. See also the [work](https://www.skullspiration.com/skull-art-by-matthew-day-jackson/) by Matthew Day Jackson.
 
